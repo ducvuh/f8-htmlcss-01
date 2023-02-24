@@ -60,6 +60,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     height: calc(100vh - 90px);
     background-color: #e6f0ff;
@@ -104,14 +105,10 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -119,7 +116,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     font-weight: 700;
     font-size: 6.2rem;
     line-height: 1.19;
@@ -127,7 +124,7 @@ a {
     margin: 8px 0 30px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.78;
@@ -139,7 +136,7 @@ a {
     min-width: 170px;
 }
 
-.hero img {
+.hero-wrap img {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
